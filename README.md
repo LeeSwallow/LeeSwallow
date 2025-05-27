@@ -7,7 +7,7 @@
     </div>
     <div style="text-align: left;">
     <h2 style="border-bottom: 1px solid #21262d; color: #c9d1d9;"> 🌱 I’m currently learning ... </h2> <br>
-    <p>현재 스프링 부트와 자바를 공부하고 있습니다.</p>
+    <p>현재 스프링 부트등 이것 저것 공부하고 있습니다..</p>
     <div style="text-align: left;">
     <h2 style="border-bottom: 1px solid #21262d; color: #c9d1d9;"> 🛠️ Tech Stacks </h2> <br> 
     <div style="margin: ; text-align: left;" "text-align: left;"> <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=Android&logoColor=white">
