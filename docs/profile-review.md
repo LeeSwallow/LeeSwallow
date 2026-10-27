@@ -74,3 +74,9 @@ HeyMoa Web은 공개돼 있지만 본인의 대표 역할이 AI 서버이므로,
 - [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats): 공개 활동과 공개 저장소 언어 카드.
 
 외부 이미지 서비스 상태에 따라 아이콘·배지·통계가 일시적으로 표시되지 않을 수 있다. GitHub 활동·언어 통계는 공개 범위이며 숙련도나 비공개 작업량을 뜻하지 않는다. 자동 생성 트로피·연속 기여·조회수 배지는 추가하지 않았다.
+
+## GitHub 프로필 중심 재구성
+
+포트폴리오 형태라는 피드백을 반영해 역할·팀 규모·학력·수상과 프로젝트 설명 카드를 프로필 첫 화면에서 제거했다. 현재 작업의 실제 앱 아이콘 2개, 기술 아이콘, 실제 저장소 메타데이터 기반 카드 4개, GitHub 활동·언어 카드만 앞에 두고 나머지 저장소는 접었다. 상세 내용은 기존 `project-details.md`에 보존했다.
+
+앱 아이콘 출처: 공개 HeyMoa Web의 `public/apple-touch-icon.png`, petnudge의 `docs/images/generated/icon.png`. 해당 프로젝트를 가리키는 링크와 함께 사용했다. GitHub 계정 아바타나 계정 설정은 변경하지 않았다.
