@@ -53,24 +53,24 @@
 
 | 프로젝트 | 서비스 · 담당 | 기술 |
 | :--- | :--- | :--- |
-| [**HeyMoa**](https://github.com/team-minswon)<br>AI 회의록 | 결정·할 일·안건 추출과 원문 근거 기반 질의응답<br>**담당** AI 서버 주 개발 | `Python` `FastAPI`<br>`LangGraph` `pgvector` |
-| **금정열린배움터**<br>비영리 야학 | 수업·출석·구입 요청·게시판 업무 백엔드<br>**담당** 인증·권한·업무 API·운영 기반 | `Java` `Spring Boot`<br>`PostgreSQL` |
-| [**MoMeet**](https://github.com/kakao-tech-campus-3rd-step3/Team11_BE)<br>취미 모임 | 위치 기반 모임 검색·참가와 실시간 채팅<br>**담당** BE 테크리더, 초기 구성·인증·채팅 | `Java` `Spring Boot`<br>`WebSocket/STOMP` `PostGIS` |
-| [**petnudge**](https://github.com/LeeSwallow/petnudge)<br>데스크톱 펫 | 할 일·포모도로·코딩 에이전트를 연결하는 앱<br>**구분** 개인 프로젝트 | `TypeScript` `Electron`<br>`SQLite` `로컬 MCP` |
-| [**Detective Agent**](https://github.com/LeeSwallow/asm-team08-ai-study)<br>AI 추리 게임 | 자연어 심문·증거 교차검증, 규칙 엔진 판정과 LLM 대사<br>**담당** BE·AI 엔진 주 개발 | `FastAPI` `LangGraph`<br>`PostgreSQL` `Neo4j` `SSE` |
-| [**Detox-Agent**](https://github.com/GoInWater301/Detox-Agent)<br>디지털 습관 관리 | 사용자별 DNS 사용량 집계·차단과 AI 리뷰<br>**담당** WebServer·gRPC 인터페이스·AI 리뷰 연동 | `Spring WebFlux` `R2DBC`<br>`Redis` `gRPC` `SSE` |
+| [**HeyMoa**](https://github.com/team-minswon)<br>AI 회의록 | 결정·할 일·안건 추출과 원문 근거 기반 질의응답<br>**담당** AI 서버 주 개발 | <img src="https://skillicons.dev/icons?i=python,fastapi,postgres&amp;theme=dark" height="32" alt="Python, FastAPI, PostgreSQL" /><br>`Python` `FastAPI`<br>`LangGraph` `pgvector` |
+| **금정열린배움터**<br>비영리 야학 | 수업·출석·구입 요청·게시판 업무 백엔드<br>**담당** 인증·권한·업무 API·운영 기반 | <img src="https://skillicons.dev/icons?i=java,spring,postgres&amp;theme=dark" height="32" alt="Java, Spring, PostgreSQL" /><br>`Java` `Spring Boot`<br>`PostgreSQL` |
+| [**MoMeet**](https://github.com/kakao-tech-campus-3rd-step3/Team11_BE)<br>취미 모임 | 위치 기반 모임 검색·참가와 실시간 채팅<br>**담당** BE 테크리더, 초기 구성·인증·채팅 | <img src="https://skillicons.dev/icons?i=java,spring,postgres&amp;theme=dark" height="32" alt="Java, Spring, PostgreSQL" /><br>`Java` `Spring Boot`<br>`WebSocket/STOMP` `PostGIS` |
+| [**petnudge**](https://github.com/LeeSwallow/petnudge)<br>데스크톱 펫 | 할 일·포모도로·코딩 에이전트를 연결하는 앱<br>**구분** 개인 프로젝트 | <img src="https://skillicons.dev/icons?i=ts,electron,sqlite&amp;theme=dark" height="32" alt="TypeScript, Electron, SQLite" /><br>`TypeScript` `Electron`<br>`SQLite` `로컬 MCP` |
+| [**Detective Agent**](https://github.com/LeeSwallow/asm-team08-ai-study)<br>AI 추리 게임 | 자연어 심문·증거 교차검증, 규칙 엔진 판정과 LLM 대사<br>**담당** BE·AI 엔진 주 개발 | <img src="https://skillicons.dev/icons?i=python,fastapi,postgres&amp;theme=dark" height="32" alt="Python, FastAPI, PostgreSQL" /><br>`FastAPI` `LangGraph`<br>`PostgreSQL` `Neo4j` `SSE` |
+| [**Detox-Agent**](https://github.com/GoInWater301/Detox-Agent)<br>디지털 습관 관리 | 사용자별 DNS 사용량 집계·차단과 AI 리뷰<br>**담당** WebServer·gRPC 인터페이스·AI 리뷰 연동 | <img src="https://skillicons.dev/icons?i=java,spring,redis&amp;theme=dark" height="32" alt="Java, Spring, Redis" /><br>`Spring WebFlux` `R2DBC`<br>`Redis` `gRPC` `SSE` |
 
 ### Graduation & term projects
 
 | 프로젝트 | 분류 | 구현 내용 | 기술 |
 | :--- | :--- | :--- | :--- |
-| **온디바이스 낙상 감지 시스템** | 졸업 과제<br>임베디드 AI | 인체 골격 움직임 기반 낙상 감지<br>**담당** Conv1D-GRU 개발·후보 선정, 후처리 설계,보드 실행 구조·메모리 배치 검토 | `Python` `C` `MoveNet`<br>`Conv1D-GRU` `STM32N6570-DK` |
-| [**SmartHome-MCP**](https://github.com/LeeSwallow/PNU-TERM_SmartHome-MCP) | IoT · MCP | MQTT 기기 등록·센서 조회·액추에이터 제어<br>MCP를 통한 자연어 기기 제어 | `Python` `FastAPI`<br>`MQTT` `FastMCP` `SQLite` `Arduino` |
-| [**Emotion Diary**](https://github.com/LeeSwallow/PNU-TERM_Emotion-Diary-App) | Android · MCP | Android 감정 일기 앱과 MCP 백엔드 | `Kotlin` `Android`<br>`Python` `FastMCP` `Supabase` |
-| [**PDF Summarizer**](https://github.com/LeeSwallow/PNU-BOOTCAMP_PDF-Summarizer) | 문서 요약 | PDF 업로드·뷰어·페이지 영역 선택·요약 생성 | `Python` `FastAPI`<br>웹 클라이언트 |
-| [**Pomodoro Todo**](https://github.com/LeeSwallow/PNU-TERM_Pomodoro-Todo-Webapp) | 생산성 웹 앱 | 포모도로 타이머와 할 일 통합 관리 | `TypeScript` `SvelteKit`<br>`Drizzle` `SQLite` `Docker` |
-| [**공공데이터 분석**](https://github.com/LeeSwallow/PNU-TERM_elderly-people-Research) | 데이터 분석 | 부산 인구·고령화와 사고 데이터 탐색<br>지도 기반 시각화 | `Python` `pandas`<br>`GeoPandas` `Folium` `Jupyter` |
-| [**FPGA 두더지 게임**](https://github.com/LeeSwallow/PNU-TERM-logic_circuit-mole_game) | 디지털 회로 | 상태 머신으로 게임 진행·점수·생명·스테이지 관리<br>키패드·LED·부저 제어 | `Verilog HDL`<br>`FPGA` `Combo II` |
+| **온디바이스 낙상 감지 시스템** | 졸업 과제<br>임베디드 AI | 인체 골격 움직임 기반 낙상 감지<br>**담당** Conv1D-GRU 개발·후보 선정, 후처리 설계, 보드 실행 구조·메모리 배치 검토 | <img src="https://skillicons.dev/icons?i=python,c&amp;theme=dark" height="32" alt="Python, C" /><br>`Python` `C` `MoveNet`<br>`Conv1D-GRU` `STM32N6570-DK` |
+| [**SmartHome-MCP**](https://github.com/LeeSwallow/PNU-TERM_SmartHome-MCP) | IoT · MCP | MQTT 기기 등록·센서 조회·액추에이터 제어<br>MCP를 통한 자연어 기기 제어 | <img src="https://skillicons.dev/icons?i=python,fastapi,arduino&amp;theme=dark" height="32" alt="Python, FastAPI, Arduino" /><br>`Python` `FastAPI`<br>`MQTT` `FastMCP` `SQLite` `Arduino` |
+| [**Emotion Diary**](https://github.com/LeeSwallow/PNU-TERM_Emotion-Diary-App) | Android · MCP | Android 감정 일기 앱과 MCP 백엔드 | <img src="https://skillicons.dev/icons?i=kotlin,python,supabase&amp;theme=dark" height="32" alt="Kotlin, Python, Supabase" /><br>`Kotlin` `Android`<br>`Python` `FastMCP` `Supabase` |
+| [**PDF Summarizer**](https://github.com/LeeSwallow/PNU-BOOTCAMP_PDF-Summarizer) | 문서 요약 | PDF 업로드·뷰어·페이지 영역 선택·요약 생성 | <img src="https://skillicons.dev/icons?i=python,fastapi&amp;theme=dark" height="32" alt="Python, FastAPI" /><br>`Python` `FastAPI`<br>웹 클라이언트 |
+| [**Pomodoro Todo**](https://github.com/LeeSwallow/PNU-TERM_Pomodoro-Todo-Webapp) | 생산성 웹 앱 | 포모도로 타이머와 할 일 통합 관리 | <img src="https://skillicons.dev/icons?i=ts,svelte,sqlite,docker&amp;theme=dark" height="32" alt="TypeScript, Svelte, SQLite, Docker" /><br>`TypeScript` `SvelteKit`<br>`Drizzle` `SQLite` `Docker` |
+| [**공공데이터 분석**](https://github.com/LeeSwallow/PNU-TERM_elderly-people-Research) | 데이터 분석 | 부산 인구·고령화와 사고 데이터 탐색<br>지도 기반 시각화 | <img src="https://skillicons.dev/icons?i=python&amp;theme=dark" height="32" alt="Python" /><br>`Python` `pandas`<br>`GeoPandas` `Folium` `Jupyter` |
+| [**FPGA 두더지 게임**](https://github.com/LeeSwallow/PNU-TERM-logic_circuit-mole_game) | 디지털 회로 | 상태 머신으로 게임 진행·점수·생명·스테이지 관리<br>키패드·LED·부저 제어 | <img src="https://img.shields.io/badge/Verilog-FPGA-6750A4?style=flat-square" height="20" alt="Verilog · FPGA" /><br>`Verilog HDL`<br>`FPGA` `Combo II` |
 
 ### Research & developer tooling
 
