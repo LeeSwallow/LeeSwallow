@@ -1,0 +1,66 @@
+# 프로필 구성과 참고 자료
+
+검토일: 2026-10-27. GitHub 프로필 README 갱신을 위한 편집 기록이다.
+
+## 구성
+
+기존의 학습 소개·기술 배지·통계 카드 중심 구성을 다음 순서로 바꿨다.
+
+1. 이름, 백엔드·AI 서비스 직무, 연락처
+2. 업무 이해·실행 추적·실험이라는 일하는 방식
+3. HeyMoa → 금정열린배움터 → MoMeet: 서비스, 역할, 문제와 해결, 조건을 붙인 결과
+4. 프로젝트에서 사용한 기술
+5. 추가 프로젝트 3개, 텀·교육 프로젝트 6개, 비공개 연구·개발 도구 3개
+6. 교육과 수상
+
+헤더는 저장소 안의 정적 SVG다. 외부 통계·배너 서비스 없이 표시하며, 핵심 소개는 이미지 아래 텍스트로도 읽을 수 있다.
+
+## 확인한 프로필과 추천 저장소
+
+아래 적용 의견은 편집상의 판단이다. 다른 사람의 수치·경력·소개 문장은 사용하지 않았다.
+
+| 참고 | 볼 부분 | 이번 프로필에 적용한 점 |
+| --- | --- | --- |
+| [Brittany Chiang](https://brittanychiang.com/) | 직무 소개, 경험, 프로젝트와 기술을 묶는 정보 순서 | 역할과 프로젝트 맥락을 먼저, 기술을 뒤에 배치 |
+| [Anurag Hazra](https://github.com/anuraghazra) | 짧은 소개와 만든 제품 중심의 설명 | 첫 화면에서 직무와 작업을 파악하도록 소개 압축 |
+| [Lee Robinson](https://github.com/leerob) | 대표 저장소를 선별한 Pinned 영역 | 배지 개수보다 대표 작업의 선택에 집중 |
+| [awesome-github-profile-readme](https://github.com/abhisheknaiidu/awesome-github-profile-readme) | Minimalistic, Descriptive 등 스타일별 사례 | 이후 레이아웃 변형을 비교할 때 볼 모음 |
+
+## 본인 저장소 추천
+
+프로필에 고정할 저장소의 우선순위다. GitHub의 Pinned 설정은 변경하지 않았다.
+
+| 우선순위 | 저장소 | 보여 줄 역량 | 확인 사항 |
+| --- | --- | --- | --- |
+| 1 | [MoMeet Backend](https://github.com/kakao-tech-campus-3rd-step3/Team11_BE) | Spring 인증·채팅·팀 협업 | 비로그인 API 조회로 공개 확인 |
+| 2 | [petnudge](https://github.com/LeeSwallow/petnudge) | 개인 제품, TypeScript·Electron·로컬 MCP | 공개 README의 pre-release 상태로 소개 |
+| 공개 검토 후 | stickypane | Go TUI·CLI·MCP, 배포 자동화 | 채용 자료의 공개 전 점검 항목이 아직 해결됐는지 미확인. 프로필 링크는 보류 |
+| 공개 검토 후 | 금정열린배움터 Backend | 인증·업무 데이터·운영 | 기존 자료에서 링크 공개 결정이 미완료. README에는 설명만 반영 |
+| 공개 범위 확인 후 | HeyMoa AI | AI 서버·평가·DB 자원 관리 | 비로그인 조직 목록에는 보이지 않아 공개 팀 페이지로 연결 |
+
+HeyMoa Web은 공개돼 있지만 본인의 대표 역할이 AI 서버이므로, 프론트엔드 저장소를 본인 대표 구현으로 대신 내세우지 않았다.
+
+## 내용 근거와 공개 범위
+
+- `Recruiting/2026-IT/KTds/이력서_v1.md`: 이름·연락처, 프로젝트별 담당, 학력·자격·수상, 검증 조건.
+- `Recruiting/2026-IT/KTds/경험및경력기술서_v12.md`: 팀 규모, 역할, 기간, 담당 업무.
+- `Recruiting/portfolio/01_프로젝트/HeyMoa/README.md`: 개인 기여와 팀 기여의 구분, 7월부터의 본인 작업 기간.
+- `Recruiting/portfolio/02_역량/기술스택_근거.md`: 실제 사용 기술과 경험 범위.
+- `Recruiting/portfolio/06_보완_할일/공개_전_정리.md`: 공개 링크를 보류할 항목.
+- `Personal-Note/PARA/01. 프로젝트/취업 준비/포트폴리오/포트폴리오.md`와 `07 케이스 - heymoa DB 연결 구조.md`: 프로젝트 선택과 부하 실험 조건.
+- 공개 GitHub API와 저장소 README: 링크의 공개 여부와 개인 프로젝트의 설명·상태.
+
+개인정보 원본, 비공개 보안 권고, 내부 문서와 실행 로그는 복사하지 않았다. 성과는 기존 검증 기록을 요약한 것으로, 이번 작업에서 실험을 다시 실행하지 않았다. 채용 성과를 보장하는 표현, 커밋 수 기반 기여율, 실사용자·다운로드 수는 넣지 않았다.
+
+## 추가 저장소 검토
+
+후속 요청에 따라 인증된 GitHub CLI로 개인 저장소 32개(비공개 8개 포함)의 목록을 확인했다. 비공개 8개는 파일 트리·진입 문서를 확인하고, 추가 후보의 README·의존성·구현 파일을 읽었다. 조직 저장소는 접근 가능한 목록을 조회한 뒤 본인 작업과 관련된 HeyMoa 하네스·온톨로지 등을 선별했다. 모든 조직 저장소의 코드를 전수 검토한 것은 아니다.
+
+- 추가 반영: Detective Agent, Detox-Agent, SmartHome-MCP, Emotion Diary, PDF Summarizer, Pomodoro Todo, 공공데이터 분석, FPGA 두더지 게임.
+- 비공개 작업 요약: HeyMoa 하네스·온톨로지, 개인 LLM Wiki 도구. 원문·코드·비공개 저장소 링크는 공개 README로 옮기지 않았다.
+- 개인 비공개 저장소의 나머지는 학습·코딩테스트·강의 실습·지식 기록이 중심이라 독립 제품 경력으로 나열하지 않았다.
+- 텀 프로젝트 표는 저장소가 다루는 구현 주제이며, 모든 부분을 본인이 단독 작성했다는 의미가 아니다. 개인 담당 근거가 있는 Detective Agent·Detox-Agent는 담당 범위를 별도 표기했다.
+- Emotion Diary는 Android Kotlin 소스와 Python MCP 백엔드, 공공데이터 분석은 인구·사고 분석 노트북과 지도 시각화 의존성을 확인했다. FPGA 게임은 설계 문서와 Verilog 모듈을 확인했다.
+- 강의 포크, 내용이 중복되는 초기 과제, 뼈대 수준의 TaskPulse-Agent는 추가하지 않았다. stickypane의 기존 공개 전 점검 보류는 유지했다.
+
+이번 확인은 문서·소스 기반이다. 추가 프로젝트를 실행하거나 배포 상태·성능·개인 기여율을 새로 검증하지 않았다.
