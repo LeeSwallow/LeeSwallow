@@ -92,6 +92,7 @@ AI를 제품과 도구에 연결하며 탐구한 프로젝트입니다.
 
 | 프로젝트 | 구현 주제 | 기술 |
 | --- | --- | --- |
+| **온디바이스 낙상 감지 시스템 · 졸업 과제** | 인체 골격 움직임 기반 낙상 감지. 3인 팀에서 Conv1D-GRU 모델 개발·최종 후보 선정, K-of-N Voting 후처리 설계, 보드 실행 구조·메모리 배치 검토 담당 | Python · C · MoveNet · Conv1D-GRU · STM32N6570-DK |
 | [**SmartHome-MCP**](https://github.com/LeeSwallow/PNU-TERM_SmartHome-MCP) | MQTT 기기 등록·센서 조회·액추에이터 제어, MCP를 통한 자연어 기기 제어 | Python · FastAPI · MQTT · FastMCP · SQLite · Arduino |
 | [**Emotion Diary**](https://github.com/LeeSwallow/PNU-TERM_Emotion-Diary-App) | Android 감정 일기 앱과 MCP 백엔드 | Kotlin · Android · Python · FastMCP · Supabase |
 | [**PDF Summarizer**](https://github.com/LeeSwallow/PNU-BOOTCAMP_PDF-Summarizer) | PDF 업로드·뷰어·페이지 영역 선택·요약 생성 흐름 | Python · FastAPI · 웹 클라이언트 |

@@ -47,21 +47,34 @@
   <a href="https://github.com/LeeSwallow/PNU-TERM_SmartHome-MCP"><img width="400" height="150" src="https://github-readme-stats.vercel.app/api/pin/?username=LeeSwallow&amp;repo=PNU-TERM_SmartHome-MCP&amp;hide_border=true&amp;title_color=7ce1c2&amp;icon_color=7ce1c2&amp;text_color=c9d1d9&amp;bg_color=101e2b" alt="LeeSwallow/PNU-TERM_SmartHome-MCP repository card" /></a>
 </p>
 
-<details>
-<summary>More repositories & experiments</summary>
+## Projects
 
-| Repository | About |
-| --- | --- |
-| [PDF Summarizer](https://github.com/LeeSwallow/PNU-BOOTCAMP_PDF-Summarizer) | PDF 영역 선택·요약 |
-| [Emotion Diary](https://github.com/LeeSwallow/PNU-TERM_Emotion-Diary-App) | Android 감정 일기 |
-| [Pomodoro Todo](https://github.com/LeeSwallow/PNU-TERM_Pomodoro-Todo-Webapp) | SvelteKit 집중 타이머 |
-| [Public Data Research](https://github.com/LeeSwallow/PNU-TERM_elderly-people-Research) | 인구·사고 데이터 분석 |
-| [FPGA Mole Game](https://github.com/LeeSwallow/PNU-TERM-logic_circuit-mole_game) | Verilog 두더지 게임 |
-| [Detox-Agent](https://github.com/GoInWater301/Detox-Agent) | DNS 필터링·AI 리뷰 연동 |
+### Services & apps
 
-그 밖에 금정열린배움터 백엔드, HeyMoa 개발 하네스·온톨로지 실험, LLM Wiki 도구를 개발했습니다. 상세 역할은 [프로젝트 기록](./docs/project-details.md)에 정리했습니다.
+- [**HeyMoa**](https://github.com/team-minswon) — 회의의 결정·할 일·안건 추출과 근거 기반 질의응답. AI 서버 주 개발 · Python, FastAPI, LangGraph, pgvector
+- **금정열린배움터** — 비영리 야학의 수업·출석·구입 요청·게시판 백엔드. 인증·권한·업무 API·운영 기반 개발 · Java, Spring Boot, PostgreSQL
+- [**MoMeet**](https://github.com/kakao-tech-campus-3rd-step3/Team11_BE) — 위치 기반 취미 모임과 실시간 채팅. BE 테크리더 · Java, Spring Boot, WebSocket/STOMP, PostGIS
+- [**petnudge**](https://github.com/LeeSwallow/petnudge) — 할 일·포모도로·코딩 에이전트를 연결하는 데스크톱 펫. 개인 프로젝트 · TypeScript, Electron, SQLite, 로컬 MCP
+- [**Detective Agent**](https://github.com/LeeSwallow/asm-team08-ai-study) — 자연어 심문과 증거 교차검증을 결합한 추리 게임. BE·AI 엔진 주 개발 · FastAPI, LangGraph, Neo4j
+- [**Detox-Agent**](https://github.com/GoInWater301/Detox-Agent) — 사용자별 DNS 사용량 집계·차단과 AI 사용 습관 리뷰. WebServer·gRPC 인터페이스·AI 리뷰 연동 · Spring WebFlux, R2DBC, Redis
 
-</details>
+### Term projects & prototypes
+
+- **온디바이스 낙상 감지 시스템 · 졸업 과제** — 인체 골격의 움직임을 분석하는 낙상 감지. Conv1D-GRU 모델 개발·후보 선정, 후처리 설계, 보드 실행 구조·메모리 배치 검토 · Python, C, MoveNet, STM32N6570-DK
+- [**SmartHome-MCP**](https://github.com/LeeSwallow/PNU-TERM_SmartHome-MCP) — MQTT 기기 등록·센서 조회·액추에이터 제어와 MCP 자연어 제어 · Python, FastAPI, MQTT, Arduino
+- [**Emotion Diary**](https://github.com/LeeSwallow/PNU-TERM_Emotion-Diary-App) — Android 감정 일기 앱과 MCP 백엔드 · Kotlin, Android, Python, FastMCP, Supabase
+- [**PDF Summarizer**](https://github.com/LeeSwallow/PNU-BOOTCAMP_PDF-Summarizer) — PDF 업로드·뷰어·페이지 영역 선택·요약 생성 · Python, FastAPI, 웹 클라이언트
+- [**Pomodoro Todo**](https://github.com/LeeSwallow/PNU-TERM_Pomodoro-Todo-Webapp) — 포모도로와 할 일을 함께 관리하는 웹 앱 · TypeScript, SvelteKit, Drizzle, SQLite
+- [**공공데이터 분석**](https://github.com/LeeSwallow/PNU-TERM_elderly-people-Research) — 부산 인구·고령화와 사고 데이터 탐색·지도 시각화 · Python, pandas, GeoPandas, Folium
+- [**FPGA 두더지 게임**](https://github.com/LeeSwallow/PNU-TERM-logic_circuit-mole_game) — 상태 머신 기반 게임 진행·점수·생명·스테이지와 키패드·LED·부저 제어 · Verilog HDL, FPGA
+
+### Research & developer tooling
+
+- **HeyMoa 개발 하네스** — 팀 공통 개발 도구·문서 절차, 제품 결정부터 이슈 마감까지의 흐름과 단계별 시간·토큰 계측
+- **HeyMoa 온톨로지 실험** — 회의 정보를 명제·관계·안건으로 표현하는 구조와 검색 방법 실험, 데이터셋·평가 기준·결과 관리
+- **LLM Wiki 도구** — 자료 수집·위키 정리·질의·링크 검사를 연결하는 개인 지식 관리 도구, 수집·구조 검증 스크립트와 플러그인 구성
+
+비공개 작업은 주제와 담당 범위만 소개합니다. 상세 역할과 검증 기록은 [프로젝트 기록](./docs/project-details.md)에 정리했습니다.
 
 ## GitHub
 
