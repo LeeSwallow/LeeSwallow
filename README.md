@@ -41,10 +41,10 @@
 ## Repositories
 
 <p align="center">
-  <a href="https://github.com/LeeSwallow/petnudge"><img width="400" src="https://github-readme-stats.vercel.app/api/pin/?username=LeeSwallow&amp;repo=petnudge&amp;hide_border=true&amp;title_color=7ce1c2&amp;icon_color=7ce1c2&amp;text_color=c9d1d9&amp;bg_color=101e2b" alt="LeeSwallow/petnudge repository card" /></a>
-  <a href="https://github.com/LeeSwallow/asm-team08-ai-study"><img width="400" src="https://github-readme-stats.vercel.app/api/pin/?username=LeeSwallow&amp;repo=asm-team08-ai-study&amp;hide_border=true&amp;title_color=7ce1c2&amp;icon_color=7ce1c2&amp;text_color=c9d1d9&amp;bg_color=101e2b" alt="LeeSwallow/asm-team08-ai-study repository card" /></a>
-  <a href="https://github.com/kakao-tech-campus-3rd-step3/Team11_BE"><img width="400" src="https://github-readme-stats.vercel.app/api/pin/?username=kakao-tech-campus-3rd-step3&amp;repo=Team11_BE&amp;hide_border=true&amp;title_color=7ce1c2&amp;icon_color=7ce1c2&amp;text_color=c9d1d9&amp;bg_color=101e2b" alt="kakao-tech-campus-3rd-step3/Team11_BE repository card" /></a>
-  <a href="https://github.com/LeeSwallow/PNU-TERM_SmartHome-MCP"><img width="400" src="https://github-readme-stats.vercel.app/api/pin/?username=LeeSwallow&amp;repo=PNU-TERM_SmartHome-MCP&amp;hide_border=true&amp;title_color=7ce1c2&amp;icon_color=7ce1c2&amp;text_color=c9d1d9&amp;bg_color=101e2b" alt="LeeSwallow/PNU-TERM_SmartHome-MCP repository card" /></a>
+  <a href="https://github.com/LeeSwallow/petnudge"><img width="400" height="150" src="https://github-readme-stats.vercel.app/api/pin/?username=LeeSwallow&amp;repo=petnudge&amp;hide_border=true&amp;title_color=7ce1c2&amp;icon_color=7ce1c2&amp;text_color=c9d1d9&amp;bg_color=101e2b" alt="LeeSwallow/petnudge repository card" /></a>
+  <a href="https://github.com/LeeSwallow/asm-team08-ai-study"><img width="400" height="150" src="https://github-readme-stats.vercel.app/api/pin/?username=LeeSwallow&amp;repo=asm-team08-ai-study&amp;hide_border=true&amp;title_color=7ce1c2&amp;icon_color=7ce1c2&amp;text_color=c9d1d9&amp;bg_color=101e2b" alt="LeeSwallow/asm-team08-ai-study repository card" /></a>
+  <a href="https://github.com/kakao-tech-campus-3rd-step3/Team11_BE"><img width="400" height="150" src="https://github-readme-stats.vercel.app/api/pin/?username=kakao-tech-campus-3rd-step3&amp;repo=Team11_BE&amp;hide_border=true&amp;title_color=7ce1c2&amp;icon_color=7ce1c2&amp;text_color=c9d1d9&amp;bg_color=101e2b" alt="kakao-tech-campus-3rd-step3/Team11_BE repository card" /></a>
+  <a href="https://github.com/LeeSwallow/PNU-TERM_SmartHome-MCP"><img width="400" height="150" src="https://github-readme-stats.vercel.app/api/pin/?username=LeeSwallow&amp;repo=PNU-TERM_SmartHome-MCP&amp;hide_border=true&amp;title_color=7ce1c2&amp;icon_color=7ce1c2&amp;text_color=c9d1d9&amp;bg_color=101e2b" alt="LeeSwallow/PNU-TERM_SmartHome-MCP repository card" /></a>
 </p>
 
 <details>
